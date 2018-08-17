@@ -36,11 +36,11 @@ Install Postman sofware to execute all test cases
    1) In Postman set request method to POST and enter localhost address of api.
    2) In body of request write method with json object you want to save.
        
-        {
-          "name": "Awais Akram",
-          "username": "awais",
-          "password": "awais64"
-        }
+            {
+              "name": "Awais Akram",
+              "username": "awais",
+              "password": "awais64"
+            }
        
    3) Click on submit button to add user.
 
@@ -53,10 +53,10 @@ Install Postman sofware to execute all test cases
    1) In Postman set request method to POST and enter localhost address of api.
    2) In body of request write method with json object you want to login with.
         
-        {
-          "username": "awais",
-          "password": "awais64"
-        }   
+            {
+              "username": "awais",
+              "password": "awais64"
+            }   
    
    3) Click on submit button to login.
 
@@ -89,10 +89,10 @@ Install Postman sofware to execute all test cases
    1) In Postman set request method to PUT and enter localhost address of api and also id of a task.
    2) In body of PUT request method body write json object you want to set as updated data in DB.
    
-         {
-           "title": "My updated task",
-           "note": "this is my first updated  task that I will do ",
-         }
+              {
+                "title": "My updated task",
+                "note": "this is my first updated  task that I will do ",
+              }
    
    3) Click on submit and data of task is updated.
 
